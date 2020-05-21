@@ -1,0 +1,82 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+}
+
+div.content{
+    margin: auto;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.header{
+    margin: auto;
+    padding: 2em;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    line-height: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+div.header a{
+    font-size: 28px;
+}
+
+div.header a:hover{
+    color: greenyellow;
+}
+
+div.header span{
+    padding: 0 2.5em;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+div.task {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+}
+
+div.task p{
+    text-align: center;
+    margin: auto;
+    padding: 1.5em;
+    min-height: fit-content;
+    width: 60%;
+    font-size: 20px;
+    border: 1px solid #000;
+}
+
+div.form{
+    height: 40vh;
+    width: 100%; 
+}
+
+div.form form{
+    margin: auto;
+    padding: 0.5em;
+    height: 25vh;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.form form input{
+    padding: 1em;
+    margin: 10px;
+}
